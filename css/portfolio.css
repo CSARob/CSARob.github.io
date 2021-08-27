@@ -193,7 +193,7 @@ footer {
 }
 
 /* Texts over the video */
-.Video_Text {
+.video_text {
     background: rgba(0, 0, 0, 0.5); /* This provides a semi-transparents background for the text to sit over */
     color: white; /* Makes the font color white */
     width: 100%; /* Ensures the video-text container fills the width of the video */
@@ -347,7 +347,7 @@ footer {
 }
 
 /* This inserts something after the content of selected elements (in this case the elements with class "Row") */
-.Row:after {
+.row:after {
 	content: ""; /* By leaving this blank, we are allowing the footer (covered lower down) to be displayed - removing it makes the footer overwrite a column */
 	display: table; /* The display property specifies the type of display behavior; the table value tells the browser to treat the element as a table */
 	clear: both; /* This clears any other elements from floating on the left or the right of an element */
